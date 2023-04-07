@@ -1,0 +1,207 @@
+@media (min-width: 23.4375em) {
+  body {
+    min-height: 100vh;
+  }
+
+  /************/
+  /* HERO SECTION */
+  /************/
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    gap: 1rem;
+    margin-bottom: 10rem;
+  }
+}
+
+.hero-logo {
+  width: 6rem;
+  margin-bottom: 2rem;
+}
+
+.primary-heading {
+  font-size: 2rem;
+  color: hsl(210, 10%, 33%);
+}
+.hero-text-container {
+  width: 18rem;
+  margin-bottom: 2rem;
+}
+
+.hero-text {
+  font-size: 0.9375rem;
+  color: hsl(201, 11%, 66%);
+  font-weight: 400;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.btn {
+  display: inline-block;
+  padding: 1rem 5.5rem;
+  border-radius: 50rem;
+  border: none;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.btn-ios {
+  background-color: hsl(171, 66%, 44%);
+}
+.btn-mac {
+  background-color: hsl(233, 100%, 69%);
+}
+
+/* End */
+/************/
+
+/************/
+/* SNIPPETS SECTION */
+/************/
+.snippet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  text-align: center;
+  margin-bottom: 10rem;
+}
+
+.secondary-heading {
+  font-size: 2rem;
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 0.5rem;
+}
+
+.snippet-text {
+  font-size: 1rem;
+  color: hsl(201, 11%, 66%);
+  margin-bottom: 4rem;
+}
+
+figure {
+  margin-bottom: 2rem;
+}
+.computer {
+  width: 100%;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-title {
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 0.5rem;
+}
+
+.item-text {
+  color: hsl(201, 11%, 66%);
+  line-height: 1.5;
+  margin-bottom: 3rem;
+}
+/* End */
+/************/
+
+/************/
+/* ACCESS SECTION */
+/************/
+
+.access {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+}
+.access-heading {
+  margin-bottom: 1rem;
+}
+
+.access-text {
+  font-size: 0.954rem;
+  margin-bottom: 5rem;
+  color: hsl(201, 11%, 66%);
+  line-height: 1.5;
+}
+.access-sub-text {
+  margin-bottom: 2rem;
+  font-size: 0.954rem;
+  color: hsl(201, 11%, 66%);
+}
+
+.device {
+  margin-bottom: 5rem;
+}
+
+.access-icon {
+  margin-bottom: 2rem;
+}
+/* End */
+/************/
+
+/************/
+/* FEATURED SECTION */
+/************/
+.featured {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  padding: 2rem;
+  margin-bottom: 8rem;
+}
+
+.featured-logo {
+  width: 8rem;
+}
+
+.clipboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+  background-color: hsla(202, 11%, 66%, 0.144);
+}
+
+.footer-logo {
+  width: 3rem;
+}
+
+.footer-text {
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+
+.social-icon-container {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+}
